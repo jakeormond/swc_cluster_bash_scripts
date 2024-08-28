@@ -1,0 +1,4 @@
+sbatch /nfs/nhome/live/jakeo/bash_scripts/consink_shuffle_job_Rat_HC1.sbatch   	# submit a job
+squeue -u jakeo									# check what jobs are running
+ssh hpc-gw1 or ssh submit1@swg1							# sign in to job node from login node
+scancel 5249049									# cancel job using job number from squeue command
